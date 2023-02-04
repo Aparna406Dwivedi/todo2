@@ -1,0 +1,27 @@
+body {
+  --bs-body-font-family: var(--bs-font-monospace);
+  --bs-body-line-height: 1.4;
+  --bs-body-bg: var(--bs-gray-100);
+  background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    height: 100vh;
+}
+.row {
+  display: flex;
+}
+.col-md-2 {
+  flex: 30%;
+}
+.col-md-10{
+  flex:60%;
+}
+
+.new {
+  padding: 10px 10px;
+  font-size: 10px;
+  text-align: center;
+}
+.head{
+  font-size: 40px;
+  text-align: center;
+}
